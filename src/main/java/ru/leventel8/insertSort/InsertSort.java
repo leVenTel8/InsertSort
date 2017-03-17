@@ -2,6 +2,7 @@ package ru.leventel8.insertSort;
 
 public class InsertSort {
 
+
     public static long[] Sort(long[] unSortedList) {
         if(unSortedList.length > 1)
             SortList(unSortedList);
@@ -23,4 +24,5 @@ public class InsertSort {
             unSortedList[in] = temp;
         }
     }
+
 }
